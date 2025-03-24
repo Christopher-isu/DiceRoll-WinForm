@@ -30,37 +30,37 @@ Partial Class DiceRoll
         '
         'ResultListBox
         '
-        Me.ResultListBox.Font = New System.Drawing.Font("Roboto Slab", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ResultListBox.Font = New System.Drawing.Font("Consolas", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResultListBox.FormattingEnabled = True
-        Me.ResultListBox.ItemHeight = 23
+        Me.ResultListBox.ItemHeight = 20
         Me.ResultListBox.Location = New System.Drawing.Point(12, 12)
         Me.ResultListBox.Name = "ResultListBox"
-        Me.ResultListBox.Size = New System.Drawing.Size(556, 349)
+        Me.ResultListBox.Size = New System.Drawing.Size(717, 224)
         Me.ResultListBox.TabIndex = 0
         '
         'RollButton
         '
-        Me.RollButton.Location = New System.Drawing.Point(12, 451)
+        Me.RollButton.Location = New System.Drawing.Point(12, 242)
         Me.RollButton.Name = "RollButton"
-        Me.RollButton.Size = New System.Drawing.Size(158, 59)
+        Me.RollButton.Size = New System.Drawing.Size(227, 59)
         Me.RollButton.TabIndex = 1
         Me.RollButton.Text = "&Roll"
         Me.RollButton.UseVisualStyleBackColor = False
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(410, 451)
+        Me.ExitButton.Location = New System.Drawing.Point(502, 242)
         Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(158, 59)
+        Me.ExitButton.Size = New System.Drawing.Size(227, 59)
         Me.ExitButton.TabIndex = 1
         Me.ExitButton.Text = "E&xit"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(211, 451)
+        Me.ClearButton.Location = New System.Drawing.Point(256, 242)
         Me.ClearButton.Name = "ClearButton"
-        Me.ClearButton.Size = New System.Drawing.Size(158, 59)
+        Me.ClearButton.Size = New System.Drawing.Size(227, 59)
         Me.ClearButton.TabIndex = 1
         Me.ClearButton.Text = "&Clear"
         Me.ClearButton.UseVisualStyleBackColor = False
@@ -69,7 +69,7 @@ Partial Class DiceRoll
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(580, 521)
+        Me.ClientSize = New System.Drawing.Size(735, 315)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.RollButton)
